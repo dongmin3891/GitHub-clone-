@@ -66,6 +66,20 @@ a {
 .input--text:-ms-input-placeholder      { color: #cacaca; }
 .input--text::-moz-placeholder          { color: #cacaca; }
 
+/* FLOAT CLEARFIX */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.float--left {
+  float: left;
+}
+
+.float--right {
+  float: right;
+}
 
 /* HEADER */
 header {
@@ -114,4 +128,8 @@ header .main-menu li a{
 
 header .main-menu li a:hover{
   color: #4078c0;
+}
+
+header .sign-group {
+  display: flex;
 }
