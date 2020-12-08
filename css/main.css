@@ -66,6 +66,18 @@ a {
 .input--text:-ms-input-placeholder      { color: #cacaca; }
 .input--text::-moz-placeholder          { color: #cacaca; }
 
+/* SUMMARY */
+.summary {
+
+}
+
+.summary__title {
+
+}
+.summary__description {
+  
+}
+
 /* FLOAT CLEARFIX */
 .clearfix::after {
   content: "";
@@ -170,4 +182,15 @@ header .sub-menu li a {
 
 header .sub-menu li a:hover {
   color: #4078c0;
+}
+
+
+/* VISUAL */
+
+.section--visual {
+
+}
+
+.section--visual .summary {
+
 }
