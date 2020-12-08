@@ -226,9 +226,13 @@ header .sub-menu li a:hover {
   padding:160px 0;
   display: flex;
 }
+.section--visual .summary {
+  flex: 1;
+  margin-right: 90px;
+}
 .section--visual .summary__title {
   color: #fff;
-  fon-size 54px;
+  font-size: 54px;
   text-shadow: 0 1px 1px rgba(0,0,0,.25),
                0 1px 25px rgba(0,0,0,.75);
 
@@ -240,6 +244,7 @@ header .sub-menu li a:hover {
 }
 #sign-form {
   width: 340px;
+  margin-top: 16px;
 
 }
 #sign-form li {
