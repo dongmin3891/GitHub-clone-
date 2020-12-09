@@ -312,15 +312,16 @@ header .sub-menu li a:hover {
   max-width: 1200px;
 }
 .section--feature .tils ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  
 }
-.section--feature .tils li{
+.section--feature .tils li {
   padding: 34px 24px;
   text-align: center;
   line-height: 1,5;
   border-right: 1px solid #e5e5e5;
   box-sizing: border-box;
+  float: left;
+  width: 25%
 }
 .section--feature .tils li:last-child{
   border-right: none;
