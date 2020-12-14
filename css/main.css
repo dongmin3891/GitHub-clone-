@@ -202,7 +202,9 @@ header .sub-menu li a {
 header .sub-menu li a:hover {
   color: #4078c0;
 }
-
+#toggle-btn {
+  display: none;
+}
 
 /* VISUAL */
 
@@ -482,7 +484,11 @@ footer .logo:hover svg {
   header .toggle {
     display: none;
   }
+  header .toggle.on {
+    display: block;
+  }
   #toggle-btn {
+    display: block;
     background: url("../img/toggle-btn.svg");
     width: 18px;
     height: 24px;
@@ -492,5 +498,4 @@ footer .logo:hover svg {
     cursor: pointer;
     text-indent: -9999px;
   }
-  
 }
