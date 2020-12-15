@@ -204,6 +204,14 @@ header .sub-menu li a:hover {
 }
 #toggle-btn {
   display: none;
+  background: url("../img/toggle-btn.svg");
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  cursor: pointer;
+  text-indent: -9999px;
 }
 
 /* VISUAL */
@@ -489,13 +497,5 @@ footer .logo:hover svg {
   }
   #toggle-btn {
     display: block;
-    background: url("../img/toggle-btn.svg");
-    width: 18px;
-    height: 24px;
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    cursor: pointer;
-    text-indent: -9999px;
   }
 }
