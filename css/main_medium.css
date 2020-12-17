@@ -86,13 +86,13 @@ header.section .inner {
   .section--feature .summary {
     padding: 66px 20px 0 20px;
   }
-  .section--feature .tils li {
+  .section--feature .tiles li {
     width: 50%;
   }
   .section--feature .tiles li:nth-child(2) {
     border-right: none;
   }
-  .section--feature .tils li img {
+  .section--feature .tiles li img {
     padding: 14px 30% 24px;
   }
 
